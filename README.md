@@ -7,6 +7,7 @@ Spatial structure, sets of zones, constraints that affect movement/interaction, 
 
 Requirements
 Python 3.10 or later
+
 No external libraries are required
 
 Setup
@@ -14,7 +15,9 @@ Setup
 2. Navigate to the project folder
 3. Run:
    python constraint_sketch.py
-With the default settings, the tool will generate a batch of ten room prompts and print them to the terminal.
+With the default settings, the tool will generate a batch of ten room prompts with low risk, medium density, random spatial grammar, and print them to the terminal.
+
+There is further detailed comments in the actual file on the exact prompts that the user can change with an example provided for syntax.
 
 # Parameters
 
