@@ -314,6 +314,9 @@ Design Prompt: How does repetition change player behavior? Constraint: Mistakes 
 The Procedural Sketch Generator intentionally does not support:
 
 Full dungeons or multi-room maps
+
 Narrative or story generation on top of the thought provoking prompt
+
 Genre-specific mechanics such as combat system, certain types of puzzles, etc.
+
 A native visual layout or asset placement (the user has to sketch the room themselves)
