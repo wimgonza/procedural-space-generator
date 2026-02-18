@@ -26,6 +26,7 @@ Low risk:
 High risk:
 - Escalated danger
 - Congested walkways
+
 Effect:
 Higher risk produces more tense rooms
 
@@ -37,6 +38,7 @@ Dense:
 - More zones
 - Lots of interactions
 - Requires more planning
+
 Effect:
 Higher density increases complexity by requiring more planning ahead.
 
@@ -45,6 +47,7 @@ Higher density increases complexity by requiring more planning ahead.
 - Linear (choke points, dead ends)
 - Loop (repeated traversal)
 - Branch (hub with short paths)
+
 Effect:
 Grammar shapes how players move and make decisions.
 
