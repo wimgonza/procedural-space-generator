@@ -19,10 +19,12 @@ With the default settings, the tool will generate a batch of room prompts and pr
 # Parameters
 
 1. Risk Level
+
 Low risk:
 - Forgiving layout
 - Easily identified danger
 - Escape paths
+
 High risk:
 - Escalated danger
 - Congested walkways
@@ -30,10 +32,13 @@ High risk:
 Effect:
 Higher risk produces more tense rooms
 
+
 2. Spatial Density
+
 Sparse:
 - Fewer zones
 - Straight forward paths
+
 Dense:
 - More zones
 - Lots of interactions
@@ -42,7 +47,9 @@ Dense:
 Effect:
 Higher density increases complexity by requiring more planning ahead.
 
+
 3. Spatial grammar
+
 (Structural pattern)
 - Linear (choke points, dead ends)
 - Loop (repeated traversal)
@@ -50,6 +57,7 @@ Higher density increases complexity by requiring more planning ahead.
 
 Effect:
 Grammar shapes how players move and make decisions.
+
 
 # Example Outputs
 
