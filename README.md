@@ -14,7 +14,7 @@ Setup
 2. Navigate to the project folder
 3. Run:
    python constraint_sketch.py
-With the default settings, the tool will generate a batch of room prompts and print them to the terminal.
+With the default settings, the tool will generate a batch of ten room prompts and print them to the terminal.
 
 # Parameters
 
@@ -61,6 +61,249 @@ Grammar shapes how players move and make decisions.
 
 # Example Outputs
 
+
+Constraint Prompt — Generated Outputs
+
+
+--- Output 1 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, unsafe shortcut
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does partial information affect choice? Constraint: Mistakes are recoverable
+
+--- Output 2 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, hazard pocket
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does repetition change player behavior? Constraint: Mistakes are recoverable
+
+--- Output 3 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, timing gate
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does partial information affect choice? Constraint: Mistakes are recoverable
+
+--- Output 4 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, obscured vantage point
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does partial information affect choice? Constraint: Danger is clearly telegraphed
+
+--- Output 5 ---
+
+Grammar: linear (Linear space with forward pressure)
+
+Risk: low | Density: medium
+
+Zones: entry, choke point, terminal space, hidden cave
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does forward progress increase tension? Constraint: Danger is clearly telegraphed
+
+--- Output 6 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, timing gate
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does partial information affect choice? Constraint: Mistakes are recoverable
+
+--- Output 7 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, unsafe shortcut
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does repetition change player behavior? Constraint: Danger is clearly telegraphed
+
+--- Output 8 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, unsafe shortcut
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does repetition change player behavior? Constraint: Danger is clearly telegraphed
+
+--- Output 9 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, obscured vantage point
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does repetition change player behavior? Constraint: Danger is clearly telegraphed
+
+--- Output 10 ---
+
+Grammar: linear (Linear space with forward pressure)
+
+Risk: low | Density: medium
+
+Zones: entry, choke point, terminal space, hazard pocket
+
+Constraint: Safe fallback zone exists
+
+Design Prompt: How does forward progress increase tension? Constraint: Safe fallback zone exists
+
+--- Output 11 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, hidden cave
+
+Constraint: Safe fallback zone exists
+
+Design Prompt: How does repetition change player behavior? Constraint: Safe fallback zone exists
+
+--- Output 12 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, hazard pocket
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does partial information affect choice? Constraint: Danger is clearly telegraphed
+
+--- Output 13 ---
+
+Grammar: linear (Linear space with forward pressure)
+
+Risk: low | Density: medium
+
+Zones: entry, choke point, terminal space, timing gate
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does forward progress increase tension? Constraint: Danger is clearly telegraphed
+
+--- Output 14 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, timing gate
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does partial information affect choice? Constraint: Danger is clearly telegraphed
+
+--- Output 15 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, unsafe shortcut
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does partial information affect choice? Constraint: Mistakes are recoverable
+
+--- Output 16 ---
+
+Grammar: branch (Hub with short branching paths)
+
+Risk: low | Density: medium
+
+Zones: hub, branch A, branch B, unsafe shortcut
+
+Constraint: Safe fallback zone exists
+
+Design Prompt: How does partial information affect choice? Constraint: Safe fallback zone exists
+
+--- Output 17 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, hidden cave
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does repetition change player behavior? Constraint: Danger is clearly telegraphed
+
+--- Output 18 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, timing gate
+
+Constraint: Danger is clearly telegraphed
+
+Design Prompt: How does repetition change player behavior? Constraint: Danger is clearly telegraphed
+
+--- Output 19 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, hazard pocket
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does repetition change player behavior? Constraint: Mistakes are recoverable
+
+--- Output 20 ---
+
+Grammar: loop (Looping space with repeated traversal)
+
+Risk: low | Density: medium
+
+Zones: central area, loop path, hazard pocket
+
+Constraint: Mistakes are recoverable
+
+Design Prompt: How does repetition change player behavior? Constraint: Mistakes are recoverable
 
 
 # Known Limitations
